@@ -1,7 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 
+}
+
+html{
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+
+}
 
 .row{
-  margin-top:15;
-  margin-left:35;
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+
+header{
+width: 1600px;
+height: 1238px;
+background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("img/header.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.main-nav{
+ float:right;
+ list-style:none;
+ margin-top:20px;
+ margin-right:50px;
+ /*background-color:red;*/
+ height:40px;
+
+}
+
+.main-nav li{
+  display: inline-block;
+  margin-left:75px;
+  text-decoration: none;
+}
+
+.main-nav li a{
+  color:#fff;
+  text-decoration:none;
+  font-family:'Raleway';
+  font-size:14px;
+
+}
+
+
+
+.slide-box{
+position:absolute;
+width:400px;
+top:500px;
+left:160px;
+}
+
+.slide-box2{
+position:absolute;
+width:400px;
+top:630px;
+left:160px;
+}
+
+h2{
+  color:white;
+  font-size:15px;
+  font-family: 'Open Sans';
+}
+
+
+
+h1{
+  color:white;
+  margin:0;
+  font-family: 'Raleway';
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: left;
+  font-style: normal;
+
+}
+.logo_university{
+ float:left;
 
 }
