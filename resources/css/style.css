@@ -124,7 +124,7 @@ list-style:none;
 
 .student_box{
   position: absolute;
-  top:115%;
+  top:116.5%;
   left:26.5%;
   width:365px;
   height:194px;
@@ -135,7 +135,7 @@ list-style:none;
 
   .student_boxsecond{
     position: absolute;
-    top:141%;
+    top:142.5%;
     left:26.5%;
     width:365px;
     height:194px;
@@ -146,12 +146,31 @@ list-style:none;
 
   .student_boxthird{
     position: absolute;
-    top:166%;
+    top:169%;
     left:26.5%;
     width:365px;
     height:194px;
     background-color: #bbbbbf;
     padding-top:70px;
+
+  }
+
+  .student_boxfourth{
+    position: absolute;
+    top:195.4%;
+    left:26.5%;
+    width:365px;
+    height:194px;
+    background-color: #cfcfd2;
+    padding-top:70px;
+
+
+  }
+
+  .young_photo{
+   position:absolute;
+   top:116.5%;
+   left:49.3%;
 
   }
 
@@ -162,4 +181,252 @@ list-style:none;
   text-align: center;
   font-weight: 400;
   line-height: 39px;
+}
+
+.textBox-young{
+  position: absolute;
+  top:169%;
+  left:49.3%;
+  padding-top:55px;
+  padding-left:15px;
+
+}
+.text-apply1C
+{
+  padding-top:7px;
+  padding-left:32px;
+  width:230px;
+}
+
+.options_apply{
+padding-top:52.3px;
+padding-left:32px;
+}
+
+.options_apply p{
+  font-family: Open Sans;
+  color:  #f23522;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 41px;
+  text-align: left;
+
+}
+
+.options_apply2{
+
+}
+
+.options_apply2 p{
+  font-family: Open Sans;
+  color:  #f23522;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 41px;
+  text-align: left;
+
+}
+
+.textBox-young h1{
+  font-family: Raleway;
+  color:  #394d69;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+
+}
+
+/* news*/
+
+
+.spotligh_text{
+  width: 381px;
+  height: 352px;
+  background-color:#87888e;
+  position:absolute;
+  top:240%;
+  left:25.7%;
+}
+
+.section-news h1{
+  padding-left:40px;
+  font-family: Raleway;
+  color:  #394d69;
+  font-size: 35px;
+}
+
+.spotlight_photo{
+  position: relative;
+  width:381px;
+  height:352px;
+}
+.spotlight{
+  padding-top:26px;
+}
+
+.st_title{
+  font-family: Open Sans;
+  color:  #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 22.48px;
+  text-align: left;
+  padding-left:25.5px;
+  padding-top:21px;
+}
+
+.st_name{
+  font-family: Raleway;
+  color:  #ffffff;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 70px;
+  text-align: left;
+  padding-left:25.5px;
+  padding-top:43.5px;
+}
+
+.st_history{
+  font-family: Open Sans;
+  color:  #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  padding-left:25.5px;
+  padding-right: 40px;
+}
+
+.news2{
+  position:absolute;
+  top:240%;
+  left:50.5%;
+}
+
+.news3{
+  position:absolute;
+  top:240%;
+  left:74.5%;
+}
+
+/*Events*/
+
+.section-events{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.section-events h1{
+  padding-left:37px;
+  padding-top: 19px;
+  font-family: Raleway;
+  color:  #394d69;
+  font-size: 35px;
+}
+
+
+.events_text{
+  font-family: Open Sans;
+  color:  #363636;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  transform: scaleX(1.0004);
+}
+
+.red-rectangle{
+  background-color:#f23522;
+  width:90px;
+  height:33px;
+}
+
+.month-text{
+  font-family: Raleway;
+  color:  #f3f3f3;
+  font-size: 28.71px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  padding-top:5px;
+}
+
+#events{
+  padding-top:38px;
+}
+
+#event1{
+
+}
+
+.box{
+  float:left;
+  width:400px;
+  height:399px;
+  background-color:#f23522;
+}
+
+
+.box3{
+  float:left;
+  background-color:#f0f0f2;
+  width: 400px;
+  height: 399px;
+
+}
+
+
+/* Contact*/
+
+.section-contact{
+  clear:left;
+  margin-left:210px;
+
+}
+.form{
+  background-color:#87888e;
+  width: 1391px;
+  height: 258px;
+}
+
+.contact-text{
+  font-family: Raleway;
+  color:  #ffffff;
+  font-size: 35px;/* Approximation due to font substitution */
+  font-weight: 500;
+  line-height: 39px;/* Approximation due to font substitution */
+  text-align: left;
+  padding-left:50px;
+  padding-top: 50px;
+}
+
+.inputs{
+  padding-top:30px;
+  padding-left:42px;
+}
+
+.txt-name{
+  border-radius: 1px;
+  background-color:  #ffffff;
+  width: 194px;
+  height: 60px;
+  font-family: Montserrat;
+  color:  #83969f;
+  font-size: 12px;
+}
+
+.txt-phone{
+  border-radius: 1px;
+  background-color:  #ffffff;
+  width: 194px;
+  height: 60px;
+  font-family: Montserrat;
+  color:  #83969f;
+  font-size: 12px;
+}
+
+.long-raac{
+  width: 1600px;
+  height: 742px;
 }
